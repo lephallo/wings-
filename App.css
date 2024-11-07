@@ -1,0 +1,16 @@
+.app {
+  width: 100%;
+  max-width: 800px;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #4CAF50; /* Green border */
+  border-radius: 12px;
+ 
+ 
+  box-shadow: 0 2px 8px rgba(76, 175, 80, 0.5); /* Light green shadow */
+  min-height: 100vh; /* Expands to cover vertical height if necessary */
+}
+body{
+  background-image: url('image.jpg');
+  background-size: cover;
+}

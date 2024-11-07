@@ -1,0 +1,82 @@
+:root {
+  font-family: 'Poppins', 'Arial', sans-serif; /* Changed font for a more modern look */
+  line-height: 1.6;
+  font-weight: 400;
+  color-scheme: light dark;
+  color: #333; /* Dark text for better contrast */
+  background-color: #ffffff; /* White background */
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 4em; /* Larger font size for impact */
+  color: #4CAF50; /* Green color for headers */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+  font-weight: 600; /* Bolder links */
+  color: #4CAF50; /* Green link color */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Smooth transition */
+}
+
+a:hover {
+  color: #388E3C; /* Darker green on hover */
+  text-decoration: underline; /* Underline effect */
+}
+
+button {
+  border-radius: 20px; /* More rounded buttons */
+  border: 2px solid #4CAF50; /* Green border */
+  padding: 0.8em 1.5em; /* Slightly larger padding */
+  font-size: 1.1em;
+  font-weight: 600;
+  font-family: inherit;
+  background-color: #fff; /* White background for buttons */
+  color: #4CAF50; /* Green button text */
+  cursor: pointer;
+  transition: all 0.3s ease; /* Smooth transition for all properties */
+}
+
+button:hover {
+  background-color: #4CAF50; /* Green background on hover */
+  color: #fff; /* Change text color to white on hover */
+  border-color: #fff; /* Change border color to white on hover */
+}
+
+button:focus, button:focus-visible {
+  outline: 4px auto #4CAF50; /* Green focus outline */
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+      color: #e0e0e0;
+      background-color: #121212; /* Dark background for dark mode */
+  }
+
+  a {
+      color: #81C784; /* Lighter green link color for dark mode */
+  }
+
+  a:hover {
+      color: #66BB6A; /* Darker green on hover in dark mode */
+  }
+
+  button {
+      background-color: #1e1e1e; /* Darker button for dark mode */
+      color: #81C784; /* Light green button text for dark mode */
+      border-color: #81C784; /* Light green border for dark mode */
+  }
+}
